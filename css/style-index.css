@@ -1,0 +1,249 @@
+body{
+  font-family: 'Lato-Black';
+}
+.btn-login{
+  margin-top: 1vh;
+  color: #FEF1AC;
+  background-color: transparent;
+  border-color: #FEF1AC;
+  border-radius: 40px;
+  border: 1px solid #FEF1AC;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sosmed>span:hover{
+  cursor: pointer;
+}
+
+
+.bg-modal{
+background-color: #292929;
+background-image:linear-gradient(159deg, #232526, #414345) !important; 
+}
+
+.bg-cover{
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bg-overlay{
+  background-color: #000;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.bg-shadows{
+  background-color: rgba(0,0,0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 100px;
+  font-family: 'Lato-Black';
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.modal-backdrop{
+ z-index: 0
+}
+
+.bg-dark-nav{
+  background-color: #141D26;
+}
+.btn-dark {
+  margin-top: 1vh;
+  color: #FEF1AC;
+  background-color: transparent;
+  border-color: #FEF1AC;
+  border-radius: 40px;
+  border: 1px solid #FEF1AC;
+  padding: 10px 20px;
+}
+.btn-modal{
+  margin-top: 2vh;
+  color: #FFFFFF;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  width: 90px;
+  
+}
+
+.font-Lato-Black{
+  font-family: 'Lato-Black';
+  color: #A2A1A1;
+}
+
+.font-Lato-Light{
+  font-family: 'Lato-Light';
+  color: #FEF1AC;
+}
+
+.font-Lato-Light-abu{
+  font-family: 'Lato-Light';
+  color: #A2A1A1;
+}
+.navbar{
+   padding: 0.2rem 0.5rem !important;
+}
+
+
+
+button.font-Lato-Black{
+  font-family: 'Lato-Black';
+  color: #FEF1AC;
+  text-align: center;
+}
+
+img.logo{
+  max-width:50%;
+  height:auto;
+}
+.font-montserrat{
+  font-family: 'Montserrat-Regular';
+  color: #FFFFFF;
+  text-align: center;
+}
+h4.font-montserrat{
+  font-family: 'Montserrat-Regular';
+  color: #A2A1A1;
+  text-align: center;
+}
+
+h3.font-montserrat{
+  font-family: 'Montserrat-Regular';
+  color: #FEF1AC;
+  text-align: center;
+}
+
+h1.font-Lato-Black{
+  font-family: 'Lato-Black';
+  color: #FEF1AC;
+  text-align: center;
+}
+
+h6.font-Lato-Light{
+  font-family: 'Lato-Light';
+  color: #FEF1AC;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tutup{
+  float: right;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #A00000;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #292929;
+  border: 0px;
+}
+
+/*.tutup:hover {
+  color: #A00000;
+  text-decoration: none;
+}*/
+.tutup:not(:disabled):not(.disabled):hover, .tutup:not(:disabled):not(.disabled):focus {
+  opacity: .75;
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('../font/Lato-Black.ttf');
+}
+
+@font-face{
+  font-family:'Lato-Light';
+  src: url('../font/Lato-Light.ttf');
+}
+
+@font-face{
+  font-family:'Montserrat-Regular';
+  src: url('../font/Montserrat-Regular.otf');
+}
+
+/*.sosmed{
+  padding-top:153px; 
+}*/
+
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(1.7); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+.fa {
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.fa-user{
+  color: #A2A1A1;
+  font-size: 30px !important;
+  vertical-align: middle;
+}
+.fa-key{
+  color: #A2A1A1;
+  font-size: 25px !important;
+  vertical-align: middle;
+}
+.fa-eye{
+  color: white;
+  padding-top: 2vh;
+}
+.fa-eye:hover{
+  opacity: 0.5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-facebook:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-google:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-twitter:hover {
+  opacity: 0.5;
+  color: white;
+}
+

@@ -1,0 +1,203 @@
+
+body{
+	background-color: rgba(20, 29, 38, 1);
+	font-family: 'Lato-Light';
+
+
+}
+.bg-card-admin{
+	/*background-image : linear-gradient(to right, #ff0099, #493240);*/
+	background-color: #ffffff:;
+	/*box-shadow: 0 4px 8px 0 #ff0099, 0 6px 20px 0 #ff0099;*/
+}
+
+.bg-dark-nav{
+  background-color: rgba(20, 29, 38, 1);
+
+}
+
+.btn-dark {
+  padding: 6px;
+  background-color: rgba(20, 29, 38, 1);
+  border-radius: 40px;
+  border: 1.5px solid #FEF1AC;
+  padding: 10px 20px;
+
+}
+.bg-card-menu{
+	background-image: linear-gradient(to right, #ff0099,#141D26);
+	/*background-color: rgba(20, 29, 38, 1);*/
+	width: 150px;
+	height: 150px;
+}
+.bg-card-menu:hover{
+	background-color: rgba(20, 29, 38, 1);
+	opacity: 0.5;
+}
+.pointer:hover {cursor: pointer;}
+
+.text-tengah{
+	margin: auto;
+  	width: 50%;
+ 	padding: 10px;
+}
+
+a.font-Lato-Black{
+ 	font-family: 'Lato-Black';
+  	color: #FEF1AC;
+}
+
+img.logo{
+	margin-left: 15px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #141D26;
+  position: fixed;
+ 
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #FEF1AC;
+  padding: 16px;
+  text-decoration: none;
+  
+
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+.tutup{
+  font-size: 2.5rem;
+  border: 0px;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 150px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+.sidebar a {float: left;}
+
+div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.font-montserrat-ungu{
+	font-family: 'Montserrat-Regular';
+	color: #FEF1AC;
+}
+@font-face{
+  font-family:'Montserrat-Regular';
+  src: url('../font/Montserrat-Regular.otf');
+}
+
+.font-Lato-Light{
+  font-family: 'Lato-Light';
+  color: #FEF1AC;
+}
+
+@font-face{
+  font-family:'Lato-Light';
+  src: url('../font/Lato-Light.ttf');
+}
+
+.font-Lato-Black{
+  font-family: 'Lato-Black';
+  color: #FEF1AC;
+}
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('../font/Lato-Black.ttf');
+}
+
+
+.vertical-scroll {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.vertical-scroll-modal{
+  height: 50vh;
+   overflow-y: scroll;
+}
+
+.btn-lihat{
+	border:1px solid white;
+	background-color: #FEF1AC;
+}
+
+button.font-Lato-Light{
+	color: #141D26;
+}
+
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+
+}
+
+.status-menunggu {
+  background-color: yellow;
+  color: #141D26;
+}
+
+.status-disetujui {
+  background-color: green;
+  color: #141D26;
+}
+
+.status-ditolak {
+  background-color: red;
+  color: #141D26;
+}
+
+.btn-capsule-left {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100px;
+}
+
+.btn-capsule-right {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100px;
+}

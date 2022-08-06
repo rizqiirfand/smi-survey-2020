@@ -1,0 +1,46 @@
+.bg-dark-nav{
+  background-color: #141D26;
+
+}
+
+img.logo{
+  max-width:50%;
+  height:auto;
+}
+
+.brightness { filter: brightness(1.7); }
+
+.btn-dark {
+  margin-top: 1vh;
+  color: #FEF1AC;
+  background-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 40px;
+  border: 1px solid #FEF1AC;
+}
+
+.btn-dark:hover{
+  border: 1px solid #FEF1AC;
+  color: #141D26;
+}
+
+.font-Lato-Black{
+  font-family: 'Lato-Black';
+  color: #A2A1A1;
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('../font/Lato-Black.ttf');
+}
+
+
+
+a.font-Lato-Black{
+	  font-family: 'Lato-Black';
+  	  color: #FEF1AC;
+}
+a.btn-logout{
+	color: #FEF1AC;
+}
